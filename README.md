@@ -7,7 +7,7 @@ You can install this plugin into your CakePHP application using [composer](http:
 The recommended way to install composer packages is:
 
 ```
-composer require your-name-here/StaticContentManager
+composer require sneha_w/static-content-manager
 ```
 # StaticContentManager
 This  CakePHP v3.0 plugin can be used to manage static pages for the cakephp project. This plugin can be used to perform crud operations and viewing the content pages. This plugin used wysiwyg editor for modifying page content.
