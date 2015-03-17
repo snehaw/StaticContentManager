@@ -1,0 +1,6 @@
+[Cc]onfig/app.php
+logs/*.log
+tmp/*
+logs/*
+webroot/img/uploads/*
+!empty
