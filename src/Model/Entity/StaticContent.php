@@ -3,6 +3,7 @@ namespace StaticContentManager\Model\Entity;
 
 use Cake\ORM\Entity;
 
+
 /**
  * StaticContent Entity.
  */

@@ -103,19 +103,24 @@ class StaticContentsController extends AppController
         return $this->redirect(['action' => 'index']);
     }
 
+    /**
+     * preview method
+     *
+     * @return void
+     */
     public function preview()
     {
         $slug = $this->request->params['slug'];
-        // debug($this->request->params['slug']);
         // $query = $this->StaticContents
         //         ->find()
         //         ->select(['*'])
         //         ->where(['slug LIKE' => $slug]);
         if($slug) {
-                // debug($query);
+            // behavior's findSlug method
             $pageData = $this->StaticContents->find('slug', ['slug' => $slug])->first();
             $this->set(compact('pageData'));
 
         }
+        
     }
 }

@@ -25,7 +25,7 @@ class StaticContentsTable extends Table
         $this->displayField('title');
         $this->primaryKey('id');
         $this->addBehavior('Timestamp');
-        $this->addBehavior('Sluggable');
+        $this->addBehavior('StaticContentManager.Sluggable');
     }
 
     /**

@@ -12,7 +12,7 @@ Router::plugin('StaticContentManager', function ($routes) {
     $routes->connect(
   '/posts/:slug',
   ['controller' => 'StaticContents', 'action' => 'preview'],
-  ['_name' => 'postsView', 'routeClass' => 'SlugRoute']
+  ['_name' => 'postsView', 'routeClass' => 'StaticContentManager.SlugRoute']
 );
     // $routes->connect('/blog', array('controller' => 'StaticContents', 'action' => 'preview', 'new-content-title-6'));
     // $routes->connect('/blog', array('controller' => 'StaticContents', 'action' => 'preview', 'new-content-title-6'));
